@@ -1,0 +1,120 @@
+<%- include('partials/header') %>
+<body>
+	<div class="top_header" id="home">
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="nav_top_fx_w3ls_agileinfo">
+				 <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					    aria-controls="navbar">
+          		  <span class="sr-only">Toggle navigation</span>
+           		 <span class="icon-bar"></span>
+          		  <span class="icon-bar"></span>
+          		  <span class="icon-bar"></span>
+					  </button> 
+					  
+					 
+					  <div class="logo-w3layouts-agileits">
+						 <div class="d-flex col-6 justify-content-around">
+						 		<a class="navbar-brand logo" href="/index"><img src="/images/FinalLOGO.png" alt="clogo" width="70" height="70"></a>
+									<a class="navbar-brand"><h1 class="display"><i>Al-Arab Export & Import</i></h1>
+									<span class="lead desc">We Trade The World</span></a>
+							</div>
+					  </div> 
+				 </div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<div class="nav_right_top">
+
+						<ul class="nav navbar-nav">
+							<li><a href="index">Home</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+										<li><a href="veges">Vegetables</a></li>
+										<li><a href="fruits">Fruits</a></li>
+										<li><a href="spices">Spices</a></li>
+										<li><a href="grocery">Grocery</a></li>
+									    <!-- <li><a href="clothes">Clothes</a></li> -->
+								</ul>
+							</li> 
+							 <li><a href="service">Services</a></li> 
+							<li><a href="about">About us</a></li>
+							<!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+							<li class="active"><a href="contact">Contact</a></li>
+							 
+						</ul>
+					</div>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+		</nav>
+	</div>
+	<!--/banner_info-->
+	<div class="banner_inner_con">
+	</div>
+	<div class="services-breadcrumb">
+		<div class="inner_breadcrumb">
+
+			<ul class="short">
+				<li><a href="index">Home</a><span>|</span></li>
+				<li>Contact</li>
+			</ul>
+		</div>
+	</div>
+	<!--//banner_info-->
+	<!-- /inner_content -->
+<div class="banner_bottom">
+		<div class="container">
+			
+			<div class="mail_form">
+				<h3 class="tittle-w3ls">Send Us a Message</h3>
+				<div class="inner_sec_info_wthree_agile">
+					
+					<form action="/form" method="post">
+						<span class="input input--chisato">
+						<input class="input__field input__field--chisato" name="name1" type="text" id="input-13" placeholder="" required="" />
+						<label class="input__label input__label--chisato" for="input-13">
+							<span class="input__label-content input__label-content--chisato" data-content="Name">Name</span>
+						</label>
+						</span>
+						<span class="input input--chisato">
+						<input class="input__field input__field--chisato" name="email1" type="email" id="input-14" placeholder="" required="" />
+						<label class="input__label input__label--chisato" for="input-14">
+							<span class="input__label-content input__label-content--chisato" data-content="Email">Email</span>
+						</label>
+						</span>
+						<span class="input input--chisato">
+						<input class="input__field input__field--chisato" name="subject1" type="text" id="input-15" placeholder="" required="" />
+						<label class="input__label input__label--chisato" for="input-15">
+							<span class="input__label-content input__label-content--chisato" data-content="Subject">Subject</span>
+						</label>
+						</span>
+						<textarea name="message1" placeholder="Your comment here..." required=""></textarea>
+						<input type="submit" value="Submit">
+					</form>
+
+				</div>
+			</div>
+			<div class="inner_sec_info_wthree_agile">
+           	<div class="col-md-8 map">
+					<iframe width="545" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=limda%20chowk%2Ctrikon%20baugh&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				<div class="col-md-4 contact_grids_info">
+					<div class="contact_grid">
+						<div class="contact_grid_right">
+							<h4> OFFICE</h4>
+							<p>Office 3 Aakar Complex Near Adingo Hotel Limda Chowk,</p>
+							<p>Rajkot-360001,Gujarat, INDIA.</p>
+						</div>
+					</div>
+					
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+	
+	<%- include('partials/footer') %>
