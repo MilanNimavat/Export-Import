@@ -71,7 +71,7 @@ app.post('/form',(req,res)=>{
     console.log(req.body.email1);
     // 
     const msg = {
-        to: 'kishanpatel11999@gmail.com',	//receiver's email
+        to: 'milanimavat171098@gmail.com',	//receiver's email
         from: req.body.email1,			//sender's email
         subject: req.body.subject1,				//Subject
         text: req.body.message1       ,		//content
