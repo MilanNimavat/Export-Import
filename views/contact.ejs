@@ -70,24 +70,24 @@
 				<h3 class="tittle-w3ls">Send Us a Message</h3>
 				<div class="inner_sec_info_wthree_agile">
 					
-					<form action="/form" method="post">
+					<form action="/form" method="post" id="msg_form">
 						<span class="input input--chisato">
-						<input class="input__field input__field--chisato" name="name1" type="text" id="input-13" placeholder="" required="" />
-						<label class="input__label input__label--chisato" for="input-13">
+						<input class="input__field input__field--chisato" name="name1" type="text" id="input-13" placeholder="Name" required="" />
+						<!-- <label class="input__label input__label--chisato" for="input-13">
 							<span class="input__label-content input__label-content--chisato" data-content="Name">Name</span>
-						</label>
+						</label> -->
 						</span>
 						<span class="input input--chisato">
-						<input class="input__field input__field--chisato" name="email1" type="email" id="input-14" placeholder="" required="" />
-						<label class="input__label input__label--chisato" for="input-14">
+						<input class="input__field input__field--chisato" name="email1" type="email" id="input-14" placeholder="Email" required="" />
+						<!-- <label class="input__label input__label--chisato" for="input-14">
 							<span class="input__label-content input__label-content--chisato" data-content="Email">Email</span>
-						</label>
+						</label> -->
 						</span>
 						<span class="input input--chisato">
-						<input class="input__field input__field--chisato" name="subject1" type="text" id="input-15" placeholder="" required="" />
-						<label class="input__label input__label--chisato" for="input-15">
+						<input class="input__field input__field--chisato" name="subject1" type="text" id="input-15" placeholder="Subject" required="" />
+						<!-- <label class="input__label input__label--chisato" for="input-15">
 							<span class="input__label-content input__label-content--chisato" data-content="Subject">Subject</span>
-						</label>
+						</label> -->
 						</span>
 						<textarea name="message1" placeholder="Your comment here..." required=""></textarea>
 						<input type="submit" value="Submit">
@@ -118,3 +118,11 @@
 
 	
 	<%- include('partials/footer') %>
+
+	<script>
+		
+	$("#msg_form").submit(()=>{
+			alert("Your message has been submitted successfully.")
+	})
+		
+	</script>
